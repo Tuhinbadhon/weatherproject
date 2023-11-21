@@ -1,7 +1,14 @@
-.App {
-  text-align: center;
+body {
+  transform: scale(0.65);
+  transform-origin: top left;
 }
 
+.App {
+  text-align: center;
+  width: 80vw; /* Make sure the App takes the full width of the viewport */
+  height: 0vw;
+  /* margin: auto; */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
