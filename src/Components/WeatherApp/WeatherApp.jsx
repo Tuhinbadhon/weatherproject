@@ -12,6 +12,7 @@ import wind_image from "../assets/wind.png";
 const WeatherApp = () => {
   let api_key = "56203459f9f27daabaa5116d7e2e38c7";
   const [wicon, setWicon] = useState(cloud_image);
+
   const search = async () => {
     const element = document.getElementsByClassName("city-input");
     if (element[0].value === "") {
@@ -65,10 +66,21 @@ const WeatherApp = () => {
     }
   };
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      search();
+    }
+  };
+
   return (
     <div className="container">
       <div className="top-bar">
-        <input type="text" className="city-input" placeholder="search" />
+        <input
+          type="text"
+          className="city-input"
+          placeholder="search"
+          onKeyDown={handleKeyDown}
+        />
         <div
           className="search-icon"
           onClick={() => {

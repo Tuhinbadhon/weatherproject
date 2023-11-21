@@ -2,7 +2,8 @@
   width: 607px;
   height: 829px;
   margin: auto;
-  margin-top: 75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 12px;
   background: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
 }
