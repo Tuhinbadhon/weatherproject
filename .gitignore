@@ -10,6 +10,8 @@
 
 # production
 /build
+src/setupTests.js
+
 
 # misc
 .DS_Store
