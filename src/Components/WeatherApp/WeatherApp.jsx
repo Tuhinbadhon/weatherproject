@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./WeatherApp.css";
-import search_image from "../assets/search.png";
-import clear_image from "../assets/clear.png";
-import cloud_image from "../assets/cloud.png";
-import drizzle_image from "../assets/drizzle.png";
-import humidity_image from "../assets/humidity.png";
-import rain_image from "../assets/rain.png";
-import snow_image from "../assets/snow.png";
-import wind_image from "../assets/wind.png";
+import search_image from "../utilities/search.png";
+import clear_image from "../utilities/clear.png";
+import cloud_image from "../utilities/cloud.png";
+import drizzle_image from "../utilities/drizzle.png";
+import humidity_image from "../utilities/humidity.png";
+import rain_image from "../utilities/rain.png";
+import snow_image from "../utilities/snow.png";
+import wind_image from "../utilities/wind.png";
 
 const WeatherApp = () => {
   let api_key = "56203459f9f27daabaa5116d7e2e38c7";

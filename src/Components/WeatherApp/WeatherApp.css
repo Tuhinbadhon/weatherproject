@@ -4,8 +4,8 @@
   margin: auto;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 20px;
-  background: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+  border-radius: 30px;
+  background: linear-gradient(to bottom, #1d65f0 0%, #1ad3fd 100%);
 }
 .top-bar {
   display: flex;
